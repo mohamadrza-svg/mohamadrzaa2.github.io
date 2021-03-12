@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.Calculator-Box {
+  margin-top: 25px;
+  width: 400px;
+  height: 520px;
+}
+
+.Result-Box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 15%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.Result-Number {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 38px;
+}
+
+.Number-Box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 85%;
+}
+
+.Number-Box-row1 {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: 2px solid black;
+}
+
+.Clear-Number-All {
+  width: 50%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Clear-Number-All:hover {
+  background-color: #ebebeb;
+}
+
+.Clear-Number-All:active {
+  background-color: #bbbcbe;
+}
+
+.Clear-Number-Backward {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Clear-Number-Backward:hover {
+  background-color: #ebebeb;
+}
+
+.Clear-Number-Backward:active {
+  background-color: #bbbcbe;
+}
+
+.Division {
+  width: 25%;
+  background-color: #df974c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.Division:hover {
+  background-color: #dfb07e;
+}
+
+.Division:active {
+  background-color: #dd8d37;
+}
+
+.Number-Box-row2 {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: 2px solid black;
+}
+
+.Number-7 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-7:hover {
+  background-color: #ebebeb;
+}
+
+.Number-7:active {
+  background-color: #bbbcbe;
+}
+
+.Number-8 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-8:hover {
+  background-color: #ebebeb;
+}
+
+.Number-8:active {
+  background-color: #bbbcbe;
+}
+
+.Number-9 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-9:hover {
+  background-color: #ebebeb;
+}
+
+.Number-9:active {
+  background-color: #bbbcbe;
+}
+
+.Multiplication {
+  width: 25%;
+  background-color: #df974c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.Multiplication:hover {
+  background-color: #dfb07e;
+}
+
+.Multiplication:active {
+  background-color: #dd8d37;
+}
+
+.Number-Box-row3 {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: 2px solid black;
+}
+
+.Number-4 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-4:hover {
+  background-color: #ebebeb;
+}
+
+.Number-4:active {
+  background-color: #bbbcbe;
+}
+
+.Number-5 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-5:hover {
+  background-color: #ebebeb;
+}
+
+.Number-5:active {
+  background-color: #bbbcbe;
+}
+
+.Number-6 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-6:hover {
+  background-color: #ebebeb;
+}
+
+.Number-6:active {
+  background-color: #bbbcbe;
+}
+
+.Minus {
+  width: 25%;
+  background-color: #df974c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.Minus:hover {
+  background-color: #dfb07e;
+}
+
+.Minus:active {
+  background-color: #dd8d37;
+}
+
+.Number-Box-row4 {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: 2px solid black;
+}
+
+.Number-1 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-1:hover {
+  background-color: #ebebeb;
+}
+
+.Number-1:active {
+  background-color: #bbbcbe;
+}
+
+.Number-2 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-2:hover {
+  background-color: #ebebeb;
+}
+
+.Number-2:active {
+  background-color: #bbbcbe;
+}
+
+.Number-3 {
+  width: 25%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-3:hover {
+  background-color: #ebebeb;
+}
+
+.Number-3:active {
+  background-color: #bbbcbe;
+}
+
+.Sum {
+  width: 25%;
+  background-color: #df974c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.Sum:hover {
+  background-color: #dfb07e;
+}
+
+.Sum:active {
+  background-color: #dd8d37;
+}
+
+.Number-Box-row5 {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.Number-0 {
+  width: 75%;
+  background-color: #d8d9db;
+  cursor: pointer;
+  border-right: 3px solid black;
+  font-size: 38px;
+}
+
+.Number-0:hover {
+  background-color: #ebebeb;
+}
+
+.Number-0:active {
+  background-color: #bbbcbe;
+}
+
+.Equal {
+  width: 25%;
+  background-color: #df974c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.Equal:hover {
+  background-color: #dfb07e;
+}
+
+.Equal:active {
+  background-color: #dd8d37;
+}
